@@ -5,7 +5,7 @@ html {
 
 body {
     margin: 0px auto;
-    min-width: 600px;
+    min-width: 800px;
     max-width: 1000px;
 
 }
@@ -21,6 +21,10 @@ header {
 header span {
     opacity: .5%;
     color: gray;
+}
+
+a {
+    color: blue;
 }
 
 #headleft {
@@ -46,45 +50,108 @@ header span {
     display: flex;
     background-color: lightgray;
     width: 100%;
-    padding: 32px 24px;
-
+    padding: 32px 0px 32px 24px;
 }
 
 #bannerimg {
     display: flex;
+    width: 60%;
 }
 
 #bookimg {
     display: block;
-    width: 60%;
+    width: 100%;
     height: auto;
-    /*padding: 32px 24px;*/
 
+    /*padding: 32px 24px;*/
 }
 
 #learn {
-    display: flex;
     width: 40%;
-    height: auto;
+    margin: auto 0px;
+
 }
 
 #learnsomethingnew {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: space-evenly;
     color: darkslategray;
     font-weight: bold;
-    /*padding: 2% 8% 2% 0%;*/
+    margin: 0px 0px 0px 24px;
+    width: 60%;
 }
-
-
 
 .button {
     display: inline-flex;
-    padding: 8px;
+    padding: 8px 0px;
     width: 100%;
     justify-content: center;
     color: white;
     background-color: darkslategray;
+}
+
+#middlebanner {
+    display: flex;
+}
+
+#middleleft {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 32px 24px;
+}
+
+#middleleft img {
+    width: 100%;
+    height: auto;
+}
+
+#middleleft h1{
+    margin: 32px 0px 24px 0px;
+}
+
+#middleright {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40%;
+    height: 100%;
+    /*margin-top: 32px;
+    border-left: 1px grey;*/
+}
+
+.rightbox {
+    display: flex;
+
+    width: 100%;
+}
+
+.rightboximg {
+    display: block;
+    width: 35%;
+    margin: 16px;
+
+}
+
+.rightboximg img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-size: cover;
+    margin: 16px;
+}
+
+.rightboxtext {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 65%;
+    margin: 0;
+    padding-left: 5%;
+}
+
+.rightboxtext h4, h5 {
+    margin-top: .25rem;
+    margin-bottom: .25rem;
 }
